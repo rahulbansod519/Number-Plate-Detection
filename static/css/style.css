@@ -1,0 +1,25 @@
+.container1 {
+    width: fit-content;
+    margin-top: 3rem;
+}
+.container1 .left-container img {
+    margin-left: 43rem;
+}
+.right-container {
+    width: fit-content;
+}
+.left-container {
+    margin-top: -14rem;
+    margin-left: 18rem;
+}
+.form-container {
+    margin-left: 2rem;
+}
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li {
+    display: inline;
+}
