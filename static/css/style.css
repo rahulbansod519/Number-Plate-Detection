@@ -1,25 +1,110 @@
+#home{
+    height: 800px;
+}
+#app{
+    margin-top: 6rem;
+}
+.headings{
+    margin-right: 36rem;
+    bottom: 8rem;
+}
+
+.float-container1 {
+    /* border: 3px solid #fff; */
+    padding: 20px;
+    background-color: rgb(120,116,116);
+    height: 30rem;
+}
+
+.float-child1 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.float-child1 h1{
+    margin-top: 1rem;
+}
+.head-mod{
+    margin-left: 8rem;
+    margin-top: 6rem;
+}
+.sub-head{
+    margin-top: 1rem;
+    background-color: black;
+    width: 338px;
+    border: 2px solid black;
+    border-radius: 59px;
+    margin-left: 8rem;
+}
+.sub-head h6{
+
+    margin-left: 1rem;
+}
+/* body{
+    background-image: "url('{{ url_for('static',filename='bg.jpg')}}')";
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.back-img img{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container1 {
     width: fit-content;
     margin-top: 3rem;
 }
+
 .container1 .left-container img {
-    margin-left: 43rem;
+    margin-left: 50rem;
 }
+
 .right-container {
     width: fit-content;
+    margin-left: 1rem;
 }
+
 .left-container {
-    margin-top: -14rem;
-    margin-left: 18rem;
+    margin-top: -20rem;
+    margin-left: 60rem;
 }
+
 .form-container {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
 }
+
 ul#horizontal-list {
     min-width: 696px;
     list-style: none;
     padding-top: 20px;
 }
+
 ul#horizontal-list li {
     display: inline;
+}
+
+.float-container {
+    /* border: 3px solid #fff; */
+    padding: 20px;
+    margin-left: -2rem;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    /* border: 2px solid red; */
+}
+.choose-file{
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+.team-member{
+    padding: 20px;
+    margin-left: 11rem;
 }
