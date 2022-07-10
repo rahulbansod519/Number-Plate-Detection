@@ -2,8 +2,8 @@ import imp
 import pymysql
 from datetime import date,datetime
 #database connection
-connection = pymysql.connect(host="localhost",user="root",passwd="",database="npd" )
-cursor = connection.cursor()
+conn= pymysql.connect(host="localhost",user="root",passwd="",database="npd" )
+cursor = conn.cursor()
 # some other statements  with the help of cursor
 def dbEntry(num_plate):
     sql = ("INSERT INTO NUMBERS(Number,date,time) VALUES (%s,%s,%s)")
